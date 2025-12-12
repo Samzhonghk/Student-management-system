@@ -1,0 +1,23 @@
+﻿node : Error in script: TypeError: fetch failed
+所在位置 行:1 字符: 89
++ ... '; Start-Sleep -Seconds 1; node .\scripts\add_stud
+ent.js 2>&1 | Out-F ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Error in s 
+   cript: TypeError: fetch failed:String) [], RemoteEx  
+  ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/
+process/task_queues:105:5)
+    at async E:\vscode_proj\student-management\backend\s
+cripts\add_student.js:5:22 {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}

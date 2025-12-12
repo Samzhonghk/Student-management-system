@@ -1,0 +1,5 @@
+﻿
+> student-management-backend@0.0.1 start
+> node index.js
+
+Server started on port 3000
