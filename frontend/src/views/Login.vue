@@ -34,7 +34,7 @@
 
 <script setup>
 import { reactive, ref, onMounted, nextTick } from 'vue'
-import logoUrl from '../../../../img/logo.jpg'
+import logoUrl from '../assets/logo.svg'
 import api from '../services/api'
 import { ElMessage } from 'element-plus'
 
